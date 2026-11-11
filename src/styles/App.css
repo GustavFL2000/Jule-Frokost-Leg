@@ -1,0 +1,17 @@
+.Overskrift{
+    color: aliceblue;
+    margin-bottom: 0;
+}
+
+.Base{
+    text-align: center;
+}
+
+body{
+    background-color: navy;
+}
+
+p{
+    color: aliceblue;
+    margin-top: 0;
+}
