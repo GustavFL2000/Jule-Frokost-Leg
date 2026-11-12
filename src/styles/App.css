@@ -15,3 +15,19 @@ p{
     color: aliceblue;
     margin-top: 0;
 }
+
+.Billeder {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.Billeder img {
+    width: 100%;
+    aspect-ratio: 1.5;
+    cursor: pointer;
+    object-fit: fill;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
